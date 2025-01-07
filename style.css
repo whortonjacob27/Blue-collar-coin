@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header.hero {
+    background: linear-gradient(to right, #005f99, #003f66);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header.hero .logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+header.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+header.hero .cta-buttons button {
+    background: #007acc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+header.hero .cta-buttons button:hover {
+    background: #005f99;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin: 20px 0;
+}
+
+footer {
+    background: #003f66;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
